@@ -1,0 +1,316 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("ImageLabel")
+local ExplodeAllRSL = Instance.new("TextButton")
+local ExplodeAllRSL_2 = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local Piroco = Instance.new("TextButton")
+local Piroco_2 = Instance.new("ImageLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local AnimationGUI = Instance.new("TextButton")
+local AnimationGUI_2 = Instance.new("ImageLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local HatsHub = Instance.new("TextButton")
+local HatsHub_2 = Instance.new("ImageLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local KillAll = Instance.new("TextButton")
+local KillAll_2 = Instance.new("ImageLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_Roundify_12px = Instance.new("ImageLabel")
+local KSX = Instance.new("TextLabel")
+local HUB = Instance.new("TextLabel")
+local HUB_Roundify_12px = Instance.new("ImageLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Name = "Frame"
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BackgroundTransparency = 1.000
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.621233582, 0, 0.662576675, 0)
+Frame.Size = UDim2.new(0, 426, 0, 269)
+Frame.Image = "rbxassetid://3570695787"
+Frame.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.120
+
+ExplodeAllRSL.Name = "ExplodeAll-RSL"
+ExplodeAllRSL.Parent = Frame
+ExplodeAllRSL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExplodeAllRSL.BackgroundTransparency = 1.000
+ExplodeAllRSL.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ExplodeAllRSL.BorderSizePixel = 0
+ExplodeAllRSL.Position = UDim2.new(0.0270242468, 0, 0.768935859, 0)
+ExplodeAllRSL.Size = UDim2.new(0, 200, 0, 50)
+ExplodeAllRSL.Font = Enum.Font.SourceSans
+ExplodeAllRSL.TextColor3 = Color3.fromRGB(0, 0, 0)
+ExplodeAllRSL.TextSize = 14.000
+
+ExplodeAllRSL_2.Name = "ExplodeAll-RSL"
+ExplodeAllRSL_2.Parent = ExplodeAllRSL
+ExplodeAllRSL_2.Active = true
+ExplodeAllRSL_2.AnchorPoint = Vector2.new(0.5, 0.5)
+ExplodeAllRSL_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExplodeAllRSL_2.BackgroundTransparency = 1.000
+ExplodeAllRSL_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+ExplodeAllRSL_2.Selectable = true
+ExplodeAllRSL_2.Size = UDim2.new(1, 0, 1, 0)
+ExplodeAllRSL_2.Image = "rbxassetid://3570695787"
+ExplodeAllRSL_2.ImageColor3 = Color3.fromRGB(47, 47, 47)
+ExplodeAllRSL_2.ScaleType = Enum.ScaleType.Slice
+ExplodeAllRSL_2.SliceCenter = Rect.new(100, 100, 100, 100)
+ExplodeAllRSL_2.SliceScale = 0.120
+
+TextLabel.Parent = ExplodeAllRSL
+TextLabel.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+TextLabel.BorderColor3 = Color3.fromRGB(47, 47, 47)
+TextLabel.Position = UDim2.new(0.155000001, 0, 0.11999999, 0)
+TextLabel.Size = UDim2.new(0, 138, 0, 37)
+TextLabel.Font = Enum.Font.Oswald
+TextLabel.Text = "ExplodeAll"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 45.000
+
+Piroco.Name = "Pirocão"
+Piroco.Parent = Frame
+Piroco.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Piroco.BackgroundTransparency = 1.000
+Piroco.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Piroco.BorderSizePixel = 0
+Piroco.Position = UDim2.new(0.510592341, 0, 0.768935859, 0)
+Piroco.Size = UDim2.new(0, 193, 0, 50)
+Piroco.Font = Enum.Font.SourceSans
+Piroco.TextColor3 = Color3.fromRGB(0, 0, 0)
+Piroco.TextSize = 14.000
+Piroco.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Nyxum/name/master/source"))()
+end)
+Piroco_2.Name = "Pirocão"
+Piroco_2.Parent = Piroco
+Piroco_2.Active = true
+Piroco_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Piroco_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Piroco_2.BackgroundTransparency = 1.000
+Piroco_2.Position = UDim2.new(0.498552948, 0, 0.5, 0)
+Piroco_2.Selectable = true
+Piroco_2.Size = UDim2.new(1, 0, 1, 0)
+Piroco_2.Image = "rbxassetid://3570695787"
+Piroco_2.ImageColor3 = Color3.fromRGB(47, 47, 47)
+Piroco_2.ScaleType = Enum.ScaleType.Slice
+Piroco_2.SliceCenter = Rect.new(100, 100, 100, 100)
+Piroco_2.SliceScale = 0.120
+
+TextLabel_2.Parent = Piroco
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+TextLabel_2.BorderColor3 = Color3.fromRGB(47, 47, 47)
+TextLabel_2.Position = UDim2.new(0.155000001, 0, 0.11999999, 0)
+TextLabel_2.Size = UDim2.new(0, 138, 0, 37)
+TextLabel_2.Font = Enum.Font.Oswald
+TextLabel_2.Text = "Pirocão"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 45.000
+
+AnimationGUI.Name = "AnimationGUI"
+AnimationGUI.Parent = Frame
+AnimationGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AnimationGUI.BackgroundTransparency = 1.000
+AnimationGUI.BorderColor3 = Color3.fromRGB(255, 255, 255)
+AnimationGUI.BorderSizePixel = 0
+AnimationGUI.Position = UDim2.new(0.0270242468, 0, 0.542170048, 0)
+AnimationGUI.Size = UDim2.new(0, 200, 0, 50)
+AnimationGUI.Font = Enum.Font.SourceSans
+AnimationGUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+AnimationGUI.TextSize = 14.000
+
+AnimationGUI_2.Name = "AnimationGUI"
+AnimationGUI_2.Parent = AnimationGUI
+AnimationGUI_2.Active = true
+AnimationGUI_2.AnchorPoint = Vector2.new(0.5, 0.5)
+AnimationGUI_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AnimationGUI_2.BackgroundTransparency = 1.000
+AnimationGUI_2.Position = UDim2.new(0.497727215, 0, 0.5, 0)
+AnimationGUI_2.Selectable = true
+AnimationGUI_2.Size = UDim2.new(1, 0, 1, 0)
+AnimationGUI_2.Image = "rbxassetid://3570695787"
+AnimationGUI_2.ImageColor3 = Color3.fromRGB(47, 47, 47)
+AnimationGUI_2.ScaleType = Enum.ScaleType.Slice
+AnimationGUI_2.SliceCenter = Rect.new(100, 100, 100, 100)
+AnimationGUI_2.SliceScale = 0.120
+
+TextLabel_3.Parent = AnimationGUI
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+TextLabel_3.BorderColor3 = Color3.fromRGB(47, 47, 47)
+TextLabel_3.Position = UDim2.new(0.155000001, 0, 0.11999999, 0)
+TextLabel_3.Size = UDim2.new(0, 138, 0, 37)
+TextLabel_3.Font = Enum.Font.Oswald
+TextLabel_3.Text = "AnimationGUI"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 45.000
+AnimationGUI.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/MK5-first/fe-gui/main/fegui"))()
+end)
+HatsHub.Name = "HatsHub"
+HatsHub.Parent = Frame
+HatsHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HatsHub.BackgroundTransparency = 1.000
+HatsHub.BorderColor3 = Color3.fromRGB(255, 255, 255)
+HatsHub.BorderSizePixel = 0
+HatsHub.Position = UDim2.new(0.50993669, 0, 0.542170048, 0)
+HatsHub.Size = UDim2.new(0, 192, 0, 50)
+HatsHub.Font = Enum.Font.SourceSans
+HatsHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+HatsHub.TextSize = 14.000
+
+HatsHub_2.Name = "HatsHub"
+HatsHub_2.Parent = HatsHub
+HatsHub_2.Active = true
+HatsHub_2.AnchorPoint = Vector2.new(0.5, 0.5)
+HatsHub_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HatsHub_2.BackgroundTransparency = 1.000
+HatsHub_2.Position = UDim2.new(0.502512872, 0, 0.5, 0)
+HatsHub_2.Selectable = true
+HatsHub_2.Size = UDim2.new(0.994975269, 0, 1, 0)
+HatsHub_2.Image = "rbxassetid://3570695787"
+HatsHub_2.ImageColor3 = Color3.fromRGB(47, 47, 47)
+HatsHub_2.ScaleType = Enum.ScaleType.Slice
+HatsHub_2.SliceCenter = Rect.new(100, 100, 100, 100)
+HatsHub_2.SliceScale = 0.120
+
+TextLabel_4.Parent = HatsHub
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+TextLabel_4.BorderColor3 = Color3.fromRGB(47, 47, 47)
+TextLabel_4.Position = UDim2.new(0.141636848, 0, 0.119999997, 0)
+TextLabel_4.Size = UDim2.new(0, 137, 0, 37)
+TextLabel_4.Font = Enum.Font.Oswald
+TextLabel_4.Text = "HatsHub"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 45.000
+HatsHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/MK5-first/namo/main/script%20br"))()
+end)
+KillAll.Name = "KillAll"
+KillAll.Parent = Frame
+KillAll.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KillAll.BackgroundTransparency = 1.000
+KillAll.BorderColor3 = Color3.fromRGB(255, 255, 255)
+KillAll.BorderSizePixel = 0
+KillAll.Position = UDim2.new(0.0270242468, 0, 0.319121748, 0)
+KillAll.Size = UDim2.new(0, 200, 0, 49)
+KillAll.Font = Enum.Font.SourceSans
+KillAll.Text = "KillAll"
+KillAll.TextColor3 = Color3.fromRGB(255, 255, 255)
+KillAll.TextSize = 25.000
+KillAll.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+KillAll.TextStrokeTransparency = 0.000
+
+KillAll_2.Name = "KillAll"
+KillAll_2.Parent = KillAll
+KillAll_2.Active = true
+KillAll_2.AnchorPoint = Vector2.new(0.5, 0.5)
+KillAll_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+KillAll_2.BackgroundTransparency = 1.000
+KillAll_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+KillAll_2.Selectable = true
+KillAll_2.Size = UDim2.new(1, 0, 1, 0)
+KillAll_2.Image = "rbxassetid://3570695787"
+KillAll_2.ImageColor3 = Color3.fromRGB(47, 47, 47)
+KillAll_2.ScaleType = Enum.ScaleType.Slice
+KillAll_2.SliceCenter = Rect.new(100, 100, 100, 100)
+KillAll_2.SliceScale = 0.120
+
+TextLabel_5.Parent = KillAll
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(47, 47, 47)
+TextLabel_5.BorderColor3 = Color3.fromRGB(47, 47, 47)
+TextLabel_5.Position = UDim2.new(0.0699996948, 0, 0.163265303, 0)
+TextLabel_5.Size = UDim2.new(0, 172, 0, 33)
+TextLabel_5.Font = Enum.Font.Oswald
+TextLabel_5.Text = "Kill All"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextSize = 45.000
+KillAll.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/FckjLsEY"))()
+end)
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.510592341, 0, 0.319121748, 0)
+TextButton.Size = UDim2.new(0, 193, 0, 49)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+TextButton_Roundify_12px.Name = "TextButton_Roundify_12px"
+TextButton_Roundify_12px.Parent = TextButton
+TextButton_Roundify_12px.Active = true
+TextButton_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+TextButton_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_Roundify_12px.BackgroundTransparency = 1.000
+TextButton_Roundify_12px.Position = UDim2.new(0.49999997, 0, 0.5, 0)
+TextButton_Roundify_12px.Selectable = true
+TextButton_Roundify_12px.Size = UDim2.new(1, 0, 1, 0)
+TextButton_Roundify_12px.Image = "rbxassetid://3570695787"
+TextButton_Roundify_12px.ImageColor3 = Color3.fromRGB(47, 47, 47)
+TextButton_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+TextButton_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+TextButton_Roundify_12px.SliceScale = 0.120
+
+KSX.Name = "KSX"
+KSX.Parent = Frame
+KSX.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+KSX.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KSX.Position = UDim2.new(0.0270241033, 0, 0.0334572494, 0)
+KSX.Size = UDim2.new(0, 40, 0, 66)
+KSX.Font = Enum.Font.PatrickHand
+KSX.Text = "Nyxum"
+KSX.TextColor3 = Color3.fromRGB(255, 255, 255)
+KSX.TextSize = 30.000
+
+HUB.Name = "HUB"
+HUB.Parent = Frame
+HUB.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+HUB.BackgroundTransparency = 1.000
+HUB.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HUB.BorderSizePixel = 0
+HUB.Position = UDim2.new(0.120920815, 0, 0.0334572494, 0)
+HUB.Size = UDim2.new(0, 54, 0, 66)
+HUB.Font = Enum.Font.PatrickHand
+HUB.Text = "Hub"
+HUB.TextColor3 = Color3.fromRGB(0, 0, 0)
+HUB.TextSize = 30.000
+
+HUB_Roundify_12px.Name = "HUB_Roundify_12px"
+HUB_Roundify_12px.Parent = HUB
+HUB_Roundify_12px.AnchorPoint = Vector2.new(0.5, 0.5)
+HUB_Roundify_12px.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HUB_Roundify_12px.BackgroundTransparency = 1.000
+HUB_Roundify_12px.Position = UDim2.new(0.5, 0, 0.512615502, 0)
+HUB_Roundify_12px.Size = UDim2.new(1, 0, 0.527999997, 0)
+HUB_Roundify_12px.Image = "rbxassetid://3570695787"
+HUB_Roundify_12px.ImageColor3 = Color3.fromRGB(255, 85, 0)
+HUB_Roundify_12px.ScaleType = Enum.ScaleType.Slice
+HUB_Roundify_12px.SliceCenter = Rect.new(100, 100, 100, 100)
+HUB_Roundify_12px.SliceScale = 0.120
+
+TextLabel_6.Parent = HUB_Roundify_12px
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel_6.BorderColor3 = Color3.fromRGB(255, 85, 0)
+TextLabel_6.Position = UDim2.new(0.0740740746, 0, 0.212426797, 0)
+TextLabel_6.Size = UDim2.new(0, 46, 0, 20)
+TextLabel_6.Font = Enum.Font.PatrickHand
+TextLabel_6.Text = "Hub"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextSize = 27.000
+TextLabel_6.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
